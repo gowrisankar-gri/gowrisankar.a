@@ -29,12 +29,17 @@ color:white;
 #container
 {
 background-color: #1a0600;
-height:900px;
 width:70%;
 margin:0px auto;
 color:white;
 }
-
+#shortbio
+{
+background-color: #1a0600;
+width:70%;
+margin:0px auto;
+color:white;
+}
 #photo img
 {
 height:300px;
