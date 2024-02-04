@@ -1,0 +1,83 @@
+#topbar
+{
+background-color:#cccccc;
+height:80px;
+width:100%;
+}
+#topbar ul
+{
+float:right;
+margin-top:20px;
+}
+#topbar ul li
+{
+display:inline;
+margin-right:10px;
+}
+#topbar ul li a
+{
+color:white;
+text-decoration:none;
+font-size:18px;
+}
+body
+{
+background-color: #1a0600;
+font-family:bookman old style;
+color:white;
+}
+#container
+{
+background-color: #1a0600;
+height:900px;
+width:70%;
+margin:0px auto;
+color:white;
+}
+
+#photo img
+{
+height:300px;
+float:left;
+margin-left:150px;
+margin-top:30px;
+}
+#info
+{
+float:right;
+width:50%;
+margin:30px
+}
+#info p
+{
+font-size:22px;
+line-height: 2;
+}
+#research li::marker
+{
+color:gold;
+font-size:30px;
+}
+#social ul li 
+{
+float:left;
+display:inline;
+margin-right:90px;
+margin-top:30px;
+}
+#social ul li a
+{
+color:white;
+text-decoration:none;
+font-size:20px;
+}
+#award ul li::marker
+{
+color:gold;
+font-size:30px;
+}
+#foreign ul li::marker
+{
+color:gold;
+font-size:30px;
+}
