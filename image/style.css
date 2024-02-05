@@ -1,6 +1,6 @@
 #topbar
 {
-background-color:tan;
+background-color:#eadbc8;
 height:80px;
 width:100%;
 }
@@ -27,25 +27,12 @@ font-family:bookman old style;
 }
 #container
 {
-background-color: white;
+background-color:  #e6ffff;
 height:2700px;
 width:70%;
 margin:0px auto;
 color:black;
 padding:30px;
-}
-#photo img
-{
-height:300px;
-float:left;
-margin-left:150px;
-margin-top:30px;
-}
-#info
-{
-float:right;
-width:50%;
-margin:30px
 }
 #info p
 {
