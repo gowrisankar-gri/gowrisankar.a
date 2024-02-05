@@ -1,6 +1,6 @@
 #topbar
 {
-background-color:#cccccc;
+background-color: #ffe6cc;
 height:80px;
 width:100%;
 }
@@ -22,23 +22,17 @@ font-size:18px;
 }
 body
 {
-background-color: #1a0600;
+background-color: black;
 font-family:bookman old style;
-color:white;
 }
 #container
 {
-background-color: #1a0600;
+background-color: white;
+height:2700px;
 width:70%;
 margin:0px auto;
-color:white;
-}
-#shortbio
-{
-background-color: #1a0600;
-width:70%;
-margin:0px auto;
-color:white;
+color:black;
+padding:30px;
 }
 #photo img
 {
@@ -60,7 +54,7 @@ line-height: 2;
 }
 #research li::marker
 {
-color:gold;
+color:#ff9900;
 font-size:30px;
 }
 #social ul li 
@@ -72,17 +66,17 @@ margin-top:30px;
 }
 #social ul li a
 {
-color:white;
+color:black;
 text-decoration:none;
 font-size:20px;
 }
 #award ul li::marker
 {
-color:gold;
+color:#ff9900;
 font-size:30px;
 }
 #foreign ul li::marker
 {
-color:gold;
+color:#ff9900;
 font-size:30px;
 }
