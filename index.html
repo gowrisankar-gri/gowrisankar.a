@@ -4,6 +4,34 @@
    <title>Dr. A. Gowrisankar</title>
    <link rel="icon" type="image/x-icon" href="image/photo.jpg" >
    <link rel="stylesheet" type="text/css" href="image/style.css" >
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+*{
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float:left;
+  width=50%;
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width:50%;
+}
+
+.right {
+  width:50%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: flex;
+  clear: both;
+}
+</style>
  </head>
 
  <body>
@@ -21,26 +49,35 @@
     </ul>
     </div>
     
+
     <div id="container">
-       <div id="photo" >
-       <img style="border-radius:15px 50px; padding:20px;" src="image/photo.jpg" >  
+       <div class="row">
+
+       <div class="column" style="background-color:  #e6ffff;">
+         <div id="photo" >
+         <img style="border-radius:15px 50px; padding:20px; width:100%" src="image/photo.jpg" height=400px>  
+         </div>
        </div>
-   
-       <div id="info">
-       <h1> அ. கௌரிசங்கர் </h1>
-       <p > <div style="font-size:26px; color:red; line-height: 2"> <b> A. Gowrisankar </b>   </div>
-        <b> Assistant Professor </b> <br>
-        Department of Mathematics <br>
-        School of Advanced Sciences <br>
-        Vellore Institute of Technology <br>
-        Vellore - 632014, Tamil Nadu, India <br> <br>
-        E-mail: <a href="mailto:gowrisankargri@gmail.com">gowrisankargri@gmail.com</a> <br>
-        <a style="padding-left:60px" href="mailto:gowrisankar.a@vit.ac.in">gowrisankar.a@vit.ac.in</a> <br>
-        </p>
+
+       <div class="column" style="background-color:  #e6ffff;">
+         <div id="info">
+         <br> <br>
+         <h2> அ. கௌரிசங்கர் </h2>
+         <p> <div style="font-size:26px; color:red; line-height:2 width:100%"> <b> A. Gowrisankar </b>   </div>
+         <b> Assistant Professor </b> <br>
+         Department of Mathematics <br>
+         School of Advanced Sciences <br>
+         Vellore Institute of Technology <br>
+         Vellore - 632014, Tamil Nadu, India <br> <br>
+         E-mail: <a href="mailto:gowrisankargri@gmail.com">gowrisankargri@gmail.com</a>   <br>
+         <a style="padding-left:60px" href="mailto:gowrisankar.a@vit.ac.in">gowrisankar.a@vit.ac.in</a> <br>
+         </p>
+         </div>
        </div>
-       
-       <br>
-       
+
+       </div>
+
+
        <h3 style="color:#008000"> Short Biography </h3>
        <p style="text-align: justify;"> Presently, I am working as an <b> Assistant Professor  </b> in the Department of Mathematics, School of Advanced Sciences, <b> Vellore Institute of Technology, Vellore, </b> Tamil Nadu, India with five years of teaching experience. My major research area is <b> Fractal Analysis </b>  and other recent areas include 
        <ul>
